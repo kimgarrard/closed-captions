@@ -22,6 +22,11 @@ body {
 	background-color: #85a99a;
 }
 
+.sound1 {
+	background-color: blue;
+}
+
+
 .background {
 	width: 100vw;
 	height: 100vh;
@@ -31,6 +36,25 @@ body {
 	opacity: 0.9v;
 	background: url(images/background.jpg) no-repeat center center;
   background-size: cover;
+}
+
+.videodiv {
+	position: absolute;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.video {
+	width: 70vw;
+	height: 70vh;
+}
+
+p {
+	color: white;
+	font-size: 1.1em;
 }
 
 #closed-captions p {
@@ -47,6 +71,10 @@ body {
 }
 .voice1 {
 	font-style: italic;
+}
+
+.sound1 {
+	background-color: blue;
 }
 
 /* **********************************************
