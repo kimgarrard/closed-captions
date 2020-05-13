@@ -49,9 +49,11 @@ body {
 }
 
 p {
-  margin: 1em;
+  width: 100vw;
+  text-align: center;
+  /* margin: 1em; */
 	color: white;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 
@@ -190,8 +192,8 @@ p {
   box-shadow: 0 0 30em red;
 }
 
-.sound3 .redcircle2a, .sound3 .redcircle2b {
-  animation: grow 2s 1s forwards;
+.sound4 .redcircle2a, .sound4 .redcircle2b {
+  animation: grow 2s forwards;
 }
 
 @keyframes grow {
@@ -206,7 +208,7 @@ p {
   }
 }
 
-.sound3 .video {
+.sound4 .video {
   animation: videobigger2 2s 0s forwards;
 }
 
@@ -269,8 +271,19 @@ p {
 	transition: .2s;
 	opacity: 0;
 }
+
 .voice1 {
-	font-style: italic;
+	/* font-style: italic; */
+  font-family: "brenner mono";
+  color: darkgrey;
+  top: 10vh;
+}
+
+.voice2 {
+	/* font-style: italic; */
+  font-family: "brenner";
+  color: ghostwhite;
+  top: 75vh;
 }
 
 /* **********************************************
@@ -281,69 +294,70 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
+
 .p0 span {
 	opacity: 0;
-	font-family: brenner;
+	/* font-family: brenner; */
 }
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	font-weight: 200;
+	/* font-weight: 200; */
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .4s;
 	margin-right: -.25em;
-	font-weight: 400;
+	/* font-weight: 400; */
 }
 
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
 	transition: 0s .5s;
 	margin-right: -.25em;
-	font-weight: 600;
+	/* font-weight: 600; */
 }
 .p0.on span:nth-of-type(4) {
 	opacity: 1;
 	transition: 0s .7s;
 	margin-right: -.25em;
-	font-weight: 800;
+	/* font-weight: 800; */
 }
 .p0.on span:nth-of-type(5) {
 	opacity: 1;
 	transition: 0s 1.1s;
 	margin-right: -.25em;
-	font-family: "brenner sans";
+	/* font-family: "brenner sans"; */
 }
 .p0.on span:nth-of-type(6) {
 	opacity: 1;
 	transition: 0s 1.4s;
 	margin-right: -.25em;
-	font-family: "brenner display";
+	/* font-family: "brenner display"; */
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s 1.7s;
 	margin-right: -.25em;
-	font-family: "brenner script";
+	/* font-family: "brenner script"; */
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
 	transition: 0s 2s;
-	font-family: "brenner script";
+	/* font-family: "brenner script"; */
 }
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
+	/* font-family: "brenner Sans condensed"; */
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	transition: 0s 3.2s;
-	font-family: "brenner mono";
+	/* font-family: "brenner mono"; */
 }
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
-	font-family: "brenner slab";
+	/* font-family: "brenner slab"; */
 }
