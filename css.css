@@ -17,6 +17,38 @@ html {
     padding: 0;
 }
 
+.redcirclediv {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redcircle {
+  width: 20em;
+  height: 20em;
+  border: 0px solid red;
+  border-radius: 100%;
+  position: absolute;
+  box-shadow: 0 0 30em red;
+}
+
+.sound1 .redcircle {
+  animation: grow 3s forwards;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(10);
+  }
+}
+
 body {
 	height: 100vh;
 	background-color: #85a99a;
@@ -24,6 +56,38 @@ body {
 
 .sound1 {
 	background-color: blue;
+}
+
+.sound8 {
+  animation: changebgcolor 2s forwards;
+}
+
+@keyframes changebgcolor {
+  0% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: #aab39e;
+  }
+}
+
+.sound8 .background {
+  opacity: 0.5 !important;
+}
+
+.sound9 .video {
+  animation: videoshrink 40s forwards;
+}
+
+@keyframes videoshrink {
+  0% {
+    height: 70vh
+  }
+
+  100% {
+    height: 50vh;
+  }
 }
 
 
@@ -99,7 +163,20 @@ You probably want to change the styling.
 	transition: 0s .4s;
 	margin-right: -.25em;
 	font-weight: 400;
+  animation: scale 1s forwards;
 }
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(2);
+  }
+
+}
+
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
 	transition: 0s .5s;
