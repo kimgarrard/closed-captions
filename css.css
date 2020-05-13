@@ -207,7 +207,7 @@ p {
 }
 
 .sound3 .video {
-  animation: videobigger2 2s 0.5s forwards;
+  animation: videobigger2 2s 0s forwards;
 }
 
 @keyframes videobigger2 {
