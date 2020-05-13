@@ -43,6 +43,7 @@ body {
 }
 
 .video {
+  transform: scale(0.8);
 	width: 70vw;
 	height: 70vh;
 }
@@ -59,7 +60,7 @@ p {
 
 
 .sound0 {
-  animation: backgroundglitch 2s;
+  animation: backgroundglitch 2s 0s 2;
 }
 
 @keyframes backgroundglitch {
@@ -108,7 +109,7 @@ p {
   }
 }
 
-.redcirclediv {
+.redcircle1div {
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -117,7 +118,7 @@ p {
   align-items: center;
 }
 
-.redcircle {
+.redcircle1 {
   opacity: 0;
   width: 20em;
   height: 20em;
@@ -127,7 +128,7 @@ p {
   box-shadow: 0 0 30em red;
 }
 
-.sound1 .redcircle {
+.sound1 .redcircle1 {
   animation: grow 2s forwards;
 }
 
@@ -142,6 +143,86 @@ p {
     transform: scale(6);
   }
 }
+
+.sound1 .video {
+  animation: videobigger 2s 0s forwards;
+}
+
+@keyframes videobigger {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(0.85);
+  }
+}
+
+
+
+
+.redcircle2div {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redcircle2a {
+  opacity: 0;
+  width: 20em;
+  height: 20em;
+  border: 0px solid red;
+  border-radius: 100%;
+  position: absolute;
+  box-shadow: 0 0 30em red;
+}
+
+.redcircle2b  {
+  opacity: 0;
+  width: 15em;
+  height: 15em;
+  border: 0px solid red;
+  border-radius: 100%;
+  position: absolute;
+  box-shadow: 0 0 30em red;
+}
+
+.sound3 .redcircle2a, .sound3 .redcircle2b {
+  animation: grow 2s 1s forwards;
+}
+
+@keyframes grow {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(6);
+  }
+}
+
+.sound3 .video {
+  animation: videobigger2 2s 0.5s forwards;
+}
+
+@keyframes videobigger2 {
+  0% {
+    transform: scale(0.85);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+
 
 .sound8 {
   animation: changebgcolor 2s forwards;
@@ -266,49 +347,3 @@ You probably want to change the styling.
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .sound0 .video {
-  animation: videobigger 0.5s 3s forwards;
-}
-
-@keyframes videobigger {
-  0% {
-    transform: scale(0.8);
-  }
-
-  49% {
-    transform: scale(0.8);
-  }
-
-  50% {
-    transform: scale(0.9);
-  }
-
-  99% {
-    transform: scale(0.9);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-} */
