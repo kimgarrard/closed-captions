@@ -58,7 +58,55 @@ p {
 
 
 
+.sound0 {
+  animation: backgroundglitch 2s;
+}
 
+@keyframes backgroundglitch {
+  0% {
+    background-color: #85a99a;
+  }
+
+  10% {
+    background-color: #85a99a;
+  }
+
+  20% {
+    background-color: grey;
+  }
+
+  30% {
+    background-color: #85a99a;
+  }
+
+  40% {
+    background-color: grey;
+  }
+
+  50% {
+    background-color: grey;
+  }
+
+  60% {
+    background-color: #85a99a;
+  }
+
+  70% {
+    background-color: black;
+  }
+
+  80% {
+    background-color: grey;
+  }
+
+  90% {
+    background-color: grey;
+  }
+
+  100% {
+    background-color: #85a99a;
+  }
+}
 
 .redcirclediv {
   width: 100vw;
