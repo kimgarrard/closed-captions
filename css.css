@@ -227,12 +227,13 @@ p {
 
 
 .sound8 {
-  animation: changebgcolor 2s forwards;
+  animation: changebgcolor 1s 0s forwards;
 }
 
 @keyframes changebgcolor {
   0% {
-    background-color: #85a99a;
+    background-color: black;
+    /* background-color: red; */
   }
 
   100% {
@@ -280,11 +281,6 @@ p {
 }
 
 @keyframes videobig {
-  /* 0% {
-    height: 70vh;
-    width: 70vw;
-    transform: scale(1);
-  } */
 
   100% {
     transform: scale(1);
