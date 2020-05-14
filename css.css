@@ -250,12 +250,49 @@ p {
 
 @keyframes videoshrink {
   0% {
-    height: 80vh
+    height: 70vh;
+    width: 70vw;
+    transform: scale(1);
   }
 
   100% {
+    width: 70vw;
     height: 50vh;
   }
+}
+
+.sound10 {
+  animation: changebgcolor2 0.5s forwards;
+}
+
+@keyframes changebgcolor2 {
+  100% {
+    background-color: white
+  }
+}
+
+.sound10 .background {
+  opacity: 0.2 !important;
+}
+
+.sound10 .video {
+  animation: videobig 0.5s forwards;
+}
+
+@keyframes videobig {
+  /* 0% {
+    height: 70vh;
+    width: 70vw;
+    transform: scale(1);
+  } */
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.sound10 p {
+  color: #2a3633;
 }
 
 
@@ -290,28 +327,15 @@ p {
 .voice3 {
   text-transform: uppercase;
   font-family: "brenner sans";
-  font-weight: 600;
+  font-weight: 400;
   top: 30vh;
   transform: rotate(-10deg);
-  font-size: 2em;
+  font-style: italic;
   left: -20vw;
   color: white;
-  animation: scream 2s;
+  letter-spacing: 0.2em;
 }
 
-@keyframes scream {
-  0% {
-    transform: perspective(10em) translate3d(0vh, 0vh, 0) rotate(0deg);
-  }
-
-  50% {
-    transform: perspective(10em) translate3d(-2vh, -5vh, 1em) rotate(-5deg);
-  }
-
-  100% {
-    transform: perspective(10em) translate3d(-5vh, 0vh, -2em) rotate(-10deg);
-  }
-}
 
 /* **********************************************
 The first paragraph, with extended timing for
