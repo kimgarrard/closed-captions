@@ -293,9 +293,9 @@ p {
   font-weight: 600;
   top: 30vh;
   transform: rotate(-10deg);
-  font-size: 1.7em;
+  font-size: 2em;
   left: -20vw;
-  color: grey;
+  color: white;
   animation: scream 2s;
 }
 
