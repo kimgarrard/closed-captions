@@ -283,7 +283,34 @@ p {
 	/* font-style: italic; */
   font-family: "brenner";
   color: ghostwhite;
-  top: 75vh;
+  top: 76vh;
+  font-size: 1.3em;
+}
+
+.voice3 {
+  text-transform: uppercase;
+  font-family: "brenner sans";
+  font-weight: 600;
+  top: 30vh;
+  transform: rotate(-10deg);
+  font-size: 1.7em;
+  left: -20vw;
+  color: grey;
+  animation: scream 2s;
+}
+
+@keyframes scream {
+  0% {
+    transform: perspective(10em) translate3d(0vh, 0vh, 0) rotate(0deg);
+  }
+
+  50% {
+    transform: perspective(10em) translate3d(-2vh, -5vh, 1em) rotate(-5deg);
+  }
+
+  100% {
+    transform: perspective(10em) translate3d(-5vh, 0vh, -2em) rotate(-10deg);
+  }
 }
 
 /* **********************************************
@@ -353,7 +380,7 @@ You probably want to change the styling.
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
-	transition: 0s 3.2s;
+	transition: 0s 3s;
 	/* font-family: "brenner mono"; */
 }
 .p0.on span:nth-of-type(11) {
