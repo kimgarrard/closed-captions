@@ -262,7 +262,7 @@ p {
   }
 }
 
-.sound10 {
+/* .sound10 {
   animation: changebgcolor2 0.5s forwards;
 }
 
@@ -270,7 +270,7 @@ p {
   100% {
     background-color: white
   }
-}
+} */
 
 .sound10 .background {
   opacity: 0.2 !important;
