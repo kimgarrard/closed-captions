@@ -387,10 +387,6 @@ p {
   }
 }
 
-.sound10 p {
-  color: #2a3633;
-}
-
 
 #closed-captions p {
 	opacity: 0;
@@ -431,6 +427,11 @@ p {
   left: -20vw;
   color: white;
   letter-spacing: 0.2em;
+}
+
+.voice4 {
+  font-family: "brenner mono";
+  /* top: 15vh; */
 }
 
 
