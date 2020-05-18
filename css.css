@@ -59,8 +59,6 @@ p {
 
 
 
-
-
 .sound0 {
   animation: backgroundglitch 2s 0s 2;
 }
@@ -161,9 +159,68 @@ p {
 }
 
 
+.sounds {
+  position: absolute;
+  width: 100vw;
+  /* background-color: pink; */
+  height: 5vh;
+  margin-top: 65vh;
+  z-index: 2;
+}
+
+.sounds p {
+  font-family: "brenner sans";
+  font-style: italic;
+  color: grey;
+  opacity: 0;
+  position: absolute;
+}
+
+.sound0 .s0 {
+  animation: sounds 3s;
+}
+
+.sound1 .s1 {
+  animation: sounds 2s;
+}
+
+.sound4 .s2 {
+  animation: sounds 2s;
+}
+
+.sound6 .s3 {
+  animation: sounds 2s;
+}
+
+.sound7 .s4 {
+  animation: sounds 2s;
+}
 
 
-.redcircle2div {
+
+@keyframes sounds {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+.lightcirclediv {
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -172,27 +229,27 @@ p {
   align-items: center;
 }
 
-.redcircle2a {
+.lightcirclea {
   opacity: 0;
   width: 20em;
   height: 20em;
-  border: 0px solid red;
+  border: 0px solid #aab39e;
   border-radius: 100%;
   position: absolute;
-  box-shadow: 0 0 30em red;
+  box-shadow: 0 0 30em #aab39e;
 }
 
-.redcircle2b  {
+.lightcircleb  {
   opacity: 0;
   width: 15em;
   height: 15em;
-  border: 0px solid red;
+  border: 0px solid #aab39e;
   border-radius: 100%;
   position: absolute;
-  box-shadow: 0 0 30em red;
+  box-shadow: 0 0 30em #aab39e;
 }
 
-.sound4 .redcircle2a, .sound4 .redcircle2b {
+.sound4 .lightcirclea, .sound4 .lightcircleb {
   animation: grow 2s forwards;
 }
 
