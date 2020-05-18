@@ -349,6 +349,14 @@ p {
   animation: videoshrink 40s forwards;
 }
 
+.sound9 .voice1 {
+  animation: videoshrinkv1 35s forwards;
+}
+
+.sound9 .voice2 {
+  animation: videoshrinkv2 40s forwards;
+}
+
 @keyframes videoshrink {
   0% {
     height: 70vh;
@@ -362,15 +370,25 @@ p {
   }
 }
 
-/* .sound10 {
-  animation: changebgcolor2 0.5s forwards;
+@keyframes videoshrinkv1 {
+  0% {
+    top: 16vh;
+  }
+
+  100% {
+    top: 26vh;
+  }
 }
 
-@keyframes changebgcolor2 {
-  100% {
-    background-color: white
+@keyframes videoshrinkv2 {
+  0% {
+    top: 65vh;
   }
-} */
+
+  100% {
+    top: 55vh;
+  }
+}
 
 .sound10 .background {
   opacity: 0.2 !important;
@@ -528,7 +546,7 @@ You probably want to change the styling.
 }
 
 
-.p8, .p10, .p11, .p13, .p14 {
+/* .p8, .p10, .p11, .p13, .p14 {
   top: 16vh;
 }
 
@@ -538,7 +556,7 @@ You probably want to change the styling.
 
 .p21, .p22, .p24, .p25, .p27, .p28, .p30, .p32, .p33, .p35, .p36, .p38, .p40 {
   top: 23vh;
-}
+} */
 
 
 .p42 {
