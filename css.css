@@ -59,7 +59,57 @@ p {
 
 
 .sound0 {
-  animation: backgroundglitch 2s 0s 2;
+  animation: backgroundglitch 2s 0s 2.5;
+}
+
+.sound0 .video {
+  animation: videoglitch 2s 0s 2 forwards;
+}
+
+@keyframes videoglitch {
+  0% {
+    opacity: 1;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 0.6;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.4;
+  }
+
+  80% {
+  opacity: 0.6;
+  }
+
+  90% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes backgroundglitch {
@@ -474,7 +524,7 @@ You probably want to change the styling.
   position: absolute;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  top: -12vh;
+  top: -14vh;
   font-size: 3.5em;
 	opacity: 1;
 	transition: 0s 3.7s;
