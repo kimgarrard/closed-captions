@@ -193,7 +193,7 @@ p {
 }
 
 .sound7 .s4 {
-  animation: sounds 2s;
+  animation: sounds 2s 1s;
 }
 
 
@@ -249,8 +249,16 @@ p {
   box-shadow: 0 0 30em #aab39e;
 }
 
-.sound4 .lightcirclea, .sound4 .lightcircleb {
+.sound4 .lightcircle1a, .sound4 .lightcircle1b {
   animation: grow 2s forwards;
+}
+
+.sound6 .lightcircle2a, .sound6 .lightcircle2b {
+  animation: grow 2s forwards;
+}
+
+.sound7 .lightcircle3a, .sound7 .lightcircle3b {
+  animation: grow 2s 1s forwards;
 }
 
 @keyframes grow {
