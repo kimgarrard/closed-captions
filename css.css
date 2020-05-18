@@ -406,6 +406,69 @@ p {
 }
 
 
+.darkcirclediv {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkcircle {
+  opacity: 0;
+  width: 70vw;
+  height: 70vh;
+  border: 0px solid red;
+  box-shadow: 0 0 90em red;
+}
+
+.sound11 .darkcircle {
+  animation: shadow 20s 15s forwards;
+}
+
+@keyframes shadow {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.darkcircle2div {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.darkcircle2 {
+  opacity: 0;
+  width: 70vw;
+  height: 70vh;
+  border: 0px solid red;
+  box-shadow: 0 0 90em black;
+}
+
+.sound11 .darkcircle2 {
+  animation: shadow2 25s 20s forwards;
+}
+
+@keyframes shadow2 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -451,6 +514,7 @@ p {
   font-family: "brenner mono";
   /* top: 15vh; */
 }
+
 
 
 /* **********************************************
