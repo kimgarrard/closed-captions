@@ -515,7 +515,7 @@ You probably want to change the styling.
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
-	transition: 0s 3s;
+	transition: 0s 3.2s;
 	/* font-family: "brenner mono"; */
 }
 
@@ -528,4 +528,21 @@ You probably want to change the styling.
   font-size: 3.5em;
 	opacity: 1;
 	transition: 0s 3.7s;
+}
+
+.p2 span {
+	opacity: 0;
+}
+.p2.on span:first-of-type {
+	opacity: 1;
+	transition: 0s;
+}
+.p2.on span:nth-of-type(2) {
+	opacity: 1;
+	transition: 0s .25s;
+}
+
+.p2.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s .5s;
 }
