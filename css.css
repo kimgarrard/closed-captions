@@ -164,7 +164,7 @@ p {
   width: 100vw;
   /* background-color: pink; */
   height: 5vh;
-  margin-top: 65vh;
+  margin-top: 70vh;
   z-index: 2;
 }
 
@@ -371,18 +371,20 @@ p {
 }
 
 .voice1 {
-	/* font-style: italic; */
   font-family: "brenner mono";
   color: darkgrey;
-  top: 10vh;
+  color: #aab39e;
+  top: 21vh;
+  font-size: 1.6em;
+  letter-spacing: 0.1em;
 }
 
 .voice2 {
 	/* font-style: italic; */
   font-family: "brenner";
   color: ghostwhite;
-  top: 76vh;
-  font-size: 1.3em;
+  top: 65vh;
+  font-size: 1.2em;
 }
 
 .voice3 {
