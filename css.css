@@ -349,12 +349,12 @@ p {
   animation: videoshrink 40s forwards;
 }
 
-.sound9 .voice1 {
-  animation: videoshrinkv1 35s forwards;
+.sound8 .voice1 {
+  animation: videoshrinkv1 37s;
 }
 
-.sound9 .voice2 {
-  animation: videoshrinkv2 40s forwards;
+.sound8 .voice2 {
+  animation: videoshrinkv2 40s;
 }
 
 @keyframes videoshrink {
@@ -376,7 +376,7 @@ p {
   }
 
   100% {
-    top: 26vh;
+    top: 27vh;
   }
 }
 
@@ -463,6 +463,31 @@ p {
     opacity: 0;
   }
 
+  100% {
+    opacity: 1;
+  }
+}
+
+.sound11 {
+  /* background-color: darkred; */
+  animation: changebgcolor2 25s 20s forwards;
+}
+
+@keyframes changebgcolor2 {
+  0% {
+    background-color: #aab39e;
+  }
+
+  100% {
+    background-color: darkred;
+  }
+}
+
+.sound11 .background {
+  animation: changeopacity 25s 20s forwards !important;
+}
+
+@keyframes changeopacity {
   100% {
     opacity: 1;
   }
