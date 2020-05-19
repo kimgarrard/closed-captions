@@ -19,7 +19,11 @@ html {
 
 body {
 	height: 100vh;
-	background-color: #85a99a;
+  background-color: #85a99a;
+}
+
+.sound0 {
+  background-color: #85a99a;
 }
 
 .background {
@@ -328,7 +332,8 @@ p {
 
 
 .sound8 {
-  animation: changebgcolor 1s 0s forwards;
+  animation: changebgcolor 1s 0s;
+  background-color: #aab39e;
 }
 
 @keyframes changebgcolor {
@@ -388,6 +393,10 @@ p {
   100% {
     top: 55vh;
   }
+}
+
+.sound10 {
+  background-color: #cad4bd;
 }
 
 .sound10 .background {
@@ -488,6 +497,10 @@ p {
 }
 
 @keyframes changeopacity {
+  0% {
+    opacity: 0.5;
+  }
+
   100% {
     opacity: 1;
   }
