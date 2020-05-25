@@ -11,7 +11,11 @@ In de scene hoor je vooral de machine en de hoofdrolspeler uit de film. Voor de 
 Verder heb ik ervoor gekozen om de machinestem hoger in beeld weer te geven, en de stem van de hoofdrolspeler meer onderaan. Dit om weer het contrast te versterken en om de hiërarchie aan te geven. De machine staat eigenlijk boven de hoofdrolspeler. 
 
 ### Kleur & elementen
-Wanneer je op deze knop klikt wordt het dag. De kleuren worden lichter en je ziet wolken in de achtergrond bewegen. Ook zie je weer een ander plaatje in het midden van een zon, wanneer je hier overheen hovert draait de zon rond en gaat deze schijnen.
+De meeste geluiden heb ik met kleur & vorm gevisualiseerd. Aan het begin hoor je spannende muziek, de achtergrond verandert steeds van kleur op de maat van de muziek en het scherm wordt af en toe donkerder. Ook hoor je een alarm, dan komt er een rode gloed van het scherm af. Verder hoor je aan het begin een paar keer een machine piep, dan komt er een gloed in de kleur van de machine uit de scene af. 
+
+Waneer de scene zich binnen verder afspeelt, voelt de sfeer bedrukt. Over het hele scherm heb ik een soort raster overlay geplaatst, waardoor ik het 'gevangen' gevoel meer naar voren wil laten komen. Daarnaast hoor je door de hele scene een indringende piep die langzaam steeds harder wordt, dit heb ik gevisualiseerd door witte cirkels die zich steeds dichter naar het beeld bewegen. Daarnaast wordt het scherm langzaam steeds kleiner om de bedrukkende sfeer te benadrukken. 
+
+Bij de tweede scene zijn de geluiden heftiger en zijn de muziek & tonen intenser. Hier heb ik de achtergrond steeds donkerder laten worden en komt er ook langzaam een donkere en rode gloed om het scherm. Daarnaast heb ik op de video een invert effect geplaatst (flitst heel snel). Wanneer het geluid aan het einde minder wordt faden deze effecten ook weer uit. 
 
 ### Space
 Als laatst heb ik nog een soort spacy / trippy overlay gemaakt. Wanneer je op de spatiebalk klikt zie je rechthoeken draaien en groter worden met als half transparante achtergrond een regenboog gradient. Ook begint het scherm in te zoomen en te draaien en veranderen de kleuren door middel van een filter (hue rotate). 
