@@ -546,6 +546,102 @@ p {
   }
 }
 
+.sound11 .wrapper {
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.2;
+  transition: 1s ease;
+}
+
+.sound11 .square {
+  position: absolute;
+  width: 20em;
+  height: 30em;
+  animation: squareanimation 10s linear infinite;
+  border: 1px solid white;
+}
+
+.sound11 .square-1 {
+	animation-delay: 0s;
+}
+.sound11 .square-2 {
+	animation-delay: -0.5s;
+}
+.sound11 .square-3 {
+	animation-delay: -1s;
+}
+.sound11 .square-4 {
+	animation-delay: -1.5s;
+}
+.sound11 .square-5 {
+	animation-delay: -2s;
+}
+.sound11 .square-6 {
+	animation-delay: -2.5s;
+}
+.sound11 .square-7 {
+	animation-delay: -3s;
+}
+.sound11 .square-8 {
+	animation-delay: -3.5s;
+}
+.sound11 .square-9 {
+	animation-delay: -4s;
+}
+.sound11 .square-10 {
+	animation-delay: -4.5s;
+}
+.sound11 .square-11 {
+	animation-delay: -5s;
+}
+.sound11 .square-12 {
+	animation-delay: -5.5s;
+}
+.sound11 .square-13 {
+	animation-delay: -6s;
+}
+.sound11 .square-14 {
+	animation-delay: -6.5s;
+}
+.sound11 .square-15 {
+	animation-delay: -7s;
+}
+.sound11 .square-16 {
+	animation-delay: -7.5s;
+}
+.sound11 .square-17 {
+	animation-delay: -8s;
+}
+.sound11 .square-18 {
+	animation-delay: -8.5s;
+}
+.sound11 .square-19 {
+	animation-delay: -9s;
+}
+.sound11 .square-20 {
+	animation-delay: -9.5s;
+}
+
+@keyframes squareanimation{
+	0%{
+		transform: scale(0) rotate(0deg);
+		opacity: 1;
+	}
+
+	100%{
+		transform: scale(3) rotate(90deg);
+		opacity: 0;
+    border: 10px solid white;
+	}
+}
+
 .sound11 .videodiv {
   animation: invert 30s 5s;
 }
@@ -567,11 +663,6 @@ p {
     filter: invert(0.8);
   }
   37.5% { filter: invert(0);}
-  49.5% { filter: invert(0);}
-  50% {
-    filter: invert(0.8);
-  }
-  50.5% { filter: invert(0);}
   79.5% { filter: invert(0);}
   80% {
     filter: invert(0.8);
@@ -590,8 +681,8 @@ p {
 
 .darkcircle {
   opacity: 0;
-  width: 70vw;
-  height: 70vh;
+  width: 60vw;
+  height: 60vh;
   border: 0px solid red;
   box-shadow: 0 0 90em red;
 }
@@ -617,9 +708,9 @@ p {
 
 .darkcircle2 {
   opacity: 0;
-  width: 70vw;
-  height: 70vh;
-  border: 0px solid red;
+  width: 60vw;
+  height: 60vh;
+  border: 0px solid darkred;
   box-shadow: 0 0 90em black;
 }
 
@@ -630,20 +721,6 @@ p {
 @keyframes shadow2 {
   100% {
     opacity: 1;
-  }
-}
-
-.sound11 {
-  animation: changebgcolor2 40s 5s forwards;
-}
-
-@keyframes changebgcolor2 {
-  0% {
-    background-color: #aab39e;
-  }
-
-  100% {
-    background-color: darkred;
   }
 }
 
@@ -658,6 +735,30 @@ p {
 
   100% {
     opacity: 1;
+  }
+}
+
+.sound12 .wrapper, .sound12 .darkcircle {
+  animation: dissapear 5s forwards;
+}
+
+@keyframes dissapear {
+  100% {
+    opacity: 0;
+  }
+}
+
+.sound12 .background {
+  animation: changeopacity2 5s forwards !important;
+}
+
+@keyframes changeopacity2 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
   }
 }
 
@@ -735,106 +836,7 @@ p {
 
 
 
-.sound11 .wrapper {
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.2;
-  transition: 1s ease;
-}
 
-.sound11 .square {
-  position: absolute;
-  width: 20em;
-  height: 30em;
-  animation: squareanimation 10s linear infinite;
-  border: 1px solid white;
-
-  /* border-top: 1px solid white;
-  border-left: 1px solid green;
-  border-right: 1px solid blue;
-  border-bottom: 1px solid red; */
-}
-
-.sound11 .square-1 {
-	animation-delay: 0s;
-}
-.sound11 .square-2 {
-	animation-delay: -0.5s;
-}
-.sound11 .square-3 {
-	animation-delay: -1s;
-}
-.sound11 .square-4 {
-	animation-delay: -1.5s;
-}
-.sound11 .square-5 {
-	animation-delay: -2s;
-}
-.sound11 .square-6 {
-	animation-delay: -2.5s;
-}
-.sound11 .square-7 {
-	animation-delay: -3s;
-}
-.sound11 .square-8 {
-	animation-delay: -3.5s;
-}
-.sound11 .square-9 {
-	animation-delay: -4s;
-}
-.sound11 .square-10 {
-	animation-delay: -4.5s;
-}
-.sound11 .square-11 {
-	animation-delay: -5s;
-}
-.sound11 .square-12 {
-	animation-delay: -5.5s;
-}
-.sound11 .square-13 {
-	animation-delay: -6s;
-}
-.sound11 .square-14 {
-	animation-delay: -6.5s;
-}
-.sound11 .square-15 {
-	animation-delay: -7s;
-}
-.sound11 .square-16 {
-	animation-delay: -7.5s;
-}
-.sound11 .square-17 {
-	animation-delay: -8s;
-}
-.sound11 .square-18 {
-	animation-delay: -8.5s;
-}
-.sound11 .square-19 {
-	animation-delay: -9s;
-}
-.sound11 .square-20 {
-	animation-delay: -9.5s;
-}
-
-@keyframes squareanimation{
-	0%{
-		transform: scale(0) rotate(0deg);
-		opacity: 1;
-	}
-
-	100%{
-		transform: scale(3) rotate(90deg);
-		opacity: 0;
-    border: 10px solid white;
-	}
-}
 
 @keyframes sounds {
   0% {
