@@ -247,6 +247,10 @@ p {
   animation: sounds 8s 1s;
 }
 
+.sound10 .s6 {
+  animation: sounds 2s;
+}
+
 
 
 @keyframes sounds {
@@ -749,25 +753,12 @@ You probably want to change the styling.
 }
 
 
-/* .p8, .p10, .p11, .p13, .p14 {
-  top: 16vh;
-}
-
-.p16 {
-  top: 19vh;
-}
-
-.p21, .p22, .p24, .p25, .p27, .p28, .p30, .p32, .p33, .p35, .p36, .p38, .p40 {
-  top: 23vh;
-} */
-
-
-.p42 {
+.p41 {
   margin-top: 0vh;
 }
 .p42 {
-  margin-top: 4vh;
+  margin-top: 2vh;
 }
 .p43 {
-  margin-top: 8vh;
+  margin-top: 4vh;
 }
