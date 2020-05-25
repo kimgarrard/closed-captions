@@ -656,7 +656,7 @@ p {
 
 .sound4 .voice3 {
   offset-path: path("M.57,98.92S61.4-4.58,129.49.87s97.15,59,94.43,114.4-8.2,111.48,75.27,167.59S384,427.91,384,427.91");
-  animation: move 2s 8s linear;
+  animation: move 2s 7s linear;
   font-family: "brenner sans";
   font-weight: 400;
   top: 20vh;
