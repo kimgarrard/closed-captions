@@ -651,16 +651,65 @@ p {
 }
 
 .voice3 {
-  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.sound4 .voice3 {
+  offset-path: path("M.57,98.92S61.4-4.58,129.49.87s97.15,59,94.43,114.4-8.2,111.48,75.27,167.59S384,427.91,384,427.91");
+  animation: move 2s 8s linear;
   font-family: "brenner sans";
   font-weight: 400;
-  top: 30vh;
-  transform: rotate(-10deg);
+  top: 20vh;
   font-style: italic;
-  left: -20vw;
+  left: 47vw;
   color: white;
-  letter-spacing: 0.2em;
 }
+
+@keyframes move {
+  0% {
+    letter-spacing: 0em;
+    opacity: 0.8;
+    offset-distance: 0%;
+  }
+
+  20%, 50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0;
+    offset-distance: 100%;
+    letter-spacing: 0.5em;
+  }
+}
+
+
+/* .type {
+  offset-path: path("M.57,98.92S61.4-4.58,129.49.87s97.15,59,94.43,114.4-8.2,111.48,75.27,167.59S384,427.91,384,427.91");
+  animation: move 20s linear infinite;
+  motion-rotation: reverse;
+  position: absolute;
+  z-index: 2;
+  bottom: 40vh;
+  border: none;
+  background-color: rgba(255,255,255,0.5);
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    offset-distance: 0%;
+  }
+
+  20%, 70% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    offset-distance: 100%;
+  }
+} */
 
 .voice4 {
   font-family: "brenner mono";
