@@ -31,31 +31,11 @@ Marie is veel betrokken geweest bij dit project en heeft ook veel goede feedback
 Ik heb in ieder geval veel verschillende dingen geprobeerd en lekker geëxperimenteerd ;)
 
 ## Feedbacksessies
-### Typografie & plaatsing
-Verder heb ik ervoor gekozen om de machinestem hoger in beeld weer te geven, en de stem van de hoofdrolspeler meer onderaan. Dit om weer het contrast te versterken en om de hiërarchie aan te geven. De machine staat eigenlijk boven de hoofdrolspeler. 
+### Eerste feedbackronde
+Bij mijn eerste feedbackronde kwam vooral naar voren dat ik veel visuele elementen had gebruikt die niet logisch voelde / te verklaren waren. Ik wist zelf voor welke geluiden ze stonden, maar Marie zag alleen een rode kring (bijvoorbeeld) groter worden maar snapte niet waarom. Ze gaf als tip om in tekst erbij te zetten wat je hoort en dit heb ik dan ook gedaan. Verder kreeg ik nog tips over de plaatsing van de tekst, dit heb ik ook aangepast. 
 
-### Add nonsense
-Ik heb in ieder geval veel verschillende dingen geprobeerd en lekker geëxperimenteerd ;)
-
-
-## Belangrijkste css elementen
-- [x] Keyframes (heel, heel veel)
-- [x] Mix-blend-mode
-- [x] :before, :after
-- [x] Hover
-- [x] Clip path
-- [x] Offseth path
-- [x] Transition
-- [x] Flexbox
-- [x] Filters
-- [x] Media queries
+### Tweede feedbackronde
+Bij de tweede feedbackronde was Marie positief over het feit dat ze nu de geluiden ook in tekst kon zien, hierdoor snapte ze wat ik visueel wilde uitbeelden en had het meer toevoeging. Wel had ik dit niet overal gedaan en dat was verwarrend, dus ik heb het uiteindelijk helemaal doorgevoerd. Vasilis zei dat ik goed op weg was, maar dat het allemaal nog extremer mocht. Dit heb ik ook zeker geprobeerd met onder andere filters en meer elementen.  
 
 ## Wat heb ik voor nieuws geleerd?
-Ik heb veel meer over css geleerd. Zo had ik wel vaker :before of :after gebruikt, maar nu snap ik veel beter hoe dit echt werkt. Daarnaast heb ik voor het eerst gewerkt met clip-path en heb ik hier ook mee geanimeerd aan de hand van een keyframe animatie. Ook had ik offseth-path nog nooit gebruikt, nu heb ik het gebruikt om tekst langs een pad te animeren. En ik heb veel meer over css filters geleerd, ik heb meerdere verschillende filters gebruikt. 
-
-Naast css heb ik veel meer geleerd over werken met svg in html, ik kan svg's nu beter lezen en aanpassen. Ook heb ik weer meer javascript geleerd. 
-
-## Bronnen
-* [Twinkling stars](https://stackoverflow.com/questions/35588267/css-twinkling-stars)
-* [Space / trip](https://codepen.io/RedGlove/pen/pmOYqz)
-* [Algemeen css](https://css-tricks.com/)
+Ik heb veel meer over css geleerd, onder andere meer over filters, transities en keyframes. Daarnaast heb ik ook geleerd om me goed in te leven in de gebruiker, Marie was er vanuit haar kant ook echt bij betrokken. 
