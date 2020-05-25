@@ -305,17 +305,17 @@ p {
 }
 
 @keyframes shakevideo {
-  0% { -webkit-transform: translate(3px, 2px) rotate(0deg); }
-	10% { -webkit-transform: translate(-2px, -3px) rotate(-2deg); }
-	20% { -webkit-transform: translate(-4px, 0px) rotate(2deg); }
-	30% { -webkit-transform: translate(0px, 3px) rotate(0deg); }
-	40% { -webkit-transform: translate(2px, -2px) rotate(2deg); }
-	50% { -webkit-transform: translate(-2px, 3px) rotate(-2deg); }
-	60% { -webkit-transform: translate(-4px, 2px) rotate(0deg); }
-	70% { -webkit-transform: translate(3px, 2px) rotate(-2deg); }
-	80% { -webkit-transform: translate(-2px, -2px) rotate(2deg); }
-	90% { -webkit-transform: translate(3px, 3px) rotate(0deg); }
-	100% { -webkit-transform: translate(2px, -3px) rotate(-2deg); }
+  0% { transform: translate(3px, 2px) rotate(0deg); }
+	10% { transform: translate(-2px, -3px) rotate(-2deg); }
+	20% { transform: translate(-4px, 0px) rotate(2deg); }
+	30% { transform: translate(0px, 3px) rotate(0deg); }
+	40% { transform: translate(2px, -2px) rotate(2deg); }
+	50% { transform: translate(-2px, 3px) rotate(-2deg); }
+	60% { transform: translate(-4px, 2px) rotate(0deg); }
+	70% { transform: translate(3px, 2px) rotate(-2deg); }
+	80% { transform: translate(-2px, -2px) rotate(2deg); }
+	90% { transform: translate(3px, 3px) rotate(0deg); }
+	100% { transform: translate(2px, -3px) rotate(-2deg); }
 }
 
 .sound6 .lightcircle2a, .sound6 .lightcircle2b {
@@ -519,10 +519,10 @@ p {
 }
 
 .sound11 .video {
-  animation: videobigger 20s forwards;
+  animation: videobigger3 20s forwards;
 }
 
-@keyframes videobigger {
+@keyframes videobigger3 {
   100% {
     transform: scale(1.2);
   }
