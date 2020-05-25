@@ -17,25 +17,25 @@ Waneer de scene zich binnen verder afspeelt, voelt de sfeer bedrukt. Over het he
 
 Bij de tweede scene zijn de geluiden heftiger en zijn de muziek & tonen intenser. Hier heb ik de achtergrond steeds donkerder laten worden en komt er ook langzaam een donkere en rode gloed om het scherm. Daarnaast heb ik op de video een invert effect geplaatst (flitst heel snel). Wanneer het geluid aan het einde minder wordt faden deze effecten ook weer uit. 
 
-### Space
-Als laatst heb ik nog een soort spacy / trippy overlay gemaakt. Wanneer je op de spatiebalk klikt zie je rechthoeken draaien en groter worden met als half transparante achtergrond een regenboog gradient. Ook begint het scherm in te zoomen en te draaien en veranderen de kleuren door middel van een filter (hue rotate). 
-
-![github_space](https://user-images.githubusercontent.com/43337685/82755872-d3313100-9dd6-11ea-9348-b1ffb02dc60d.gif)
-
 ## Exclusive design principles 
-### Typografie & plaatsing
-Verder heb ik ervoor gekozen om de machinestem hoger in beeld weer te geven, en de stem van de hoofdrolspeler meer onderaan. Dit om weer het contrast te versterken en om de hiërarchie aan te geven. De machine staat eigenlijk boven de hoofdrolspeler. 
+### 1. Study situation
+Ik heb dit ontworpen voor Marie, zij is doof geboren. Om haar situatie te proberen te begrijpen hebben we gesprekken met haar gehad en veel vragen gesteld. Zo kwam ik er bijvoorbeeld achter dat deze scenes zonder geluid heel erg droog zijn, het geluid maakt grotendeels de sfeer in deze scenes. Ook heb ik de scene zonder geluid bekeken, en ik kon me heel goed vinden in haar mening. 
 
-### Kleur & elementen
-Wanneer je op deze knop klikt wordt het dag. De kleuren worden lichter en je ziet wolken in de achtergrond bewegen. Ook zie je weer een ander plaatje in het midden van een zon, wanneer je hier overheen hovert draait de zon rond en gaat deze schijnen.
+### 2. Ignore conventions
+Omdat dit geen website is zijn er veel standaard dingen die sowieso niet gebruikt worden. Wel heb ik out of the box gedacht en heb ik bijvoorbeeld met de plaatsing iets anders gedaan. Normaal wordt de ondertiteling altijd onderaan in het beeld weergegeven, maar in mijn geval heb ik hier veel meer variatie in gebracht. 
+
+### 3. Prioritise identity
+Marie is veel betrokken geweest bij dit project en heeft ook veel goede feedback gegeven. Het begon al met het eerste gesprek, om ons in haar situatie in te leven. Daarna hebben we nog twee feedbackrondes gehad, hier heb ik veel aan gehad. Dingen die voor mij logisch waren (omdat ik wist welke geluiden er te horen waren), waren voor haar bijvoorbeeld helemaal niet logisch.  
+
+### 4. Add nonsense
+Ik heb in ieder geval veel verschillende dingen geprobeerd en lekker geëxperimenteerd ;)
 
 ## Feedbacksessies
 ### Typografie & plaatsing
 Verder heb ik ervoor gekozen om de machinestem hoger in beeld weer te geven, en de stem van de hoofdrolspeler meer onderaan. Dit om weer het contrast te versterken en om de hiërarchie aan te geven. De machine staat eigenlijk boven de hoofdrolspeler. 
 
-### Kleur & elementen
-Wanneer je op deze knop klikt wordt het dag. De kleuren worden lichter en je ziet wolken in de achtergrond bewegen. Ook zie je weer een ander plaatje in het midden van een zon, wanneer je hier overheen hovert draait de zon rond en gaat deze schijnen.
-
+### Add nonsense
+Ik heb in ieder geval veel verschillende dingen geprobeerd en lekker geëxperimenteerd ;)
 
 
 ## Belangrijkste css elementen
