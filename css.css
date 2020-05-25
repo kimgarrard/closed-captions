@@ -243,6 +243,10 @@ p {
   animation: sounds 2s 1s;
 }
 
+.sound9 .s5 {
+  animation: sounds 8s 1s;
+}
+
 
 
 @keyframes sounds {
@@ -298,6 +302,24 @@ p {
 
 .sound4 .lightcircle1a, .sound4 .lightcircle1b {
   animation: grow 2s forwards;
+}
+
+.sound3 .videodiv {
+  animation: shakevideo 1.5s linear;
+}
+
+@keyframes shakevideo {
+  0% { -webkit-transform: translate(3px, 2px) rotate(0deg); }
+	10% { -webkit-transform: translate(-2px, -3px) rotate(-2deg); }
+	20% { -webkit-transform: translate(-4px, 0px) rotate(2deg); }
+	30% { -webkit-transform: translate(0px, 3px) rotate(0deg); }
+	40% { -webkit-transform: translate(2px, -2px) rotate(2deg); }
+	50% { -webkit-transform: translate(-2px, 3px) rotate(-2deg); }
+	60% { -webkit-transform: translate(-4px, 2px) rotate(0deg); }
+	70% { -webkit-transform: translate(3px, 2px) rotate(-2deg); }
+	80% { -webkit-transform: translate(-2px, -2px) rotate(2deg); }
+	90% { -webkit-transform: translate(3px, 3px) rotate(0deg); }
+	100% { -webkit-transform: translate(2px, -3px) rotate(-2deg); }
 }
 
 .sound6 .lightcircle2a, .sound6 .lightcircle2b {
@@ -407,41 +429,57 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: shake 50s linear forwards;
 }
 
-.sound9  .whitecircle1 {
+.sound9  .whitecircle {
   opacity: 0;
   width: 20em;
   height: 20em;
-  z-index: 2;
   border: 1px solid white;
   border-radius: 100%;
   position: absolute;
   box-shadow: 0 0 30em white;
 }
 
-.sound9 .whitecircle1 {
-  animation: grow2 50s forwards;
+.sound9 .whitecircle {
+  animation: grow2 45s linear forwards;
+}
+
+.sound9 .whitecircle2 {
+  animation-delay: 8s;
+}
+
+.sound9 .whitecircle3 {
+  animation-delay: 16s;
+}
+
+.sound9 .whitecircle4 {
+  animation-delay: 24s;
+}
+
+.sound9 .whitecircle5 {
+  animation-delay: 32s;
 }
 
 @keyframes grow2 {
   0% {
     opacity: 0;
-    transform: scale(5);
+    transform: scaleY(5) scaleX(5);
   }
 
   100% {
     opacity: 1;
-    transform: scaleY(4) scaleX(2);
+    transform: scaleY(3) scaleX(2);
   }
 }
 
-.sound10 .whitecircle1 {
+.sound10 .whitecircle {
   display: none;
 }
 
-/* .sound9 .pattern {
-  opacity: 0.5;
+.sound8 .pattern {
+  opacity: 0.2;
   z-index: 1;
   width: 100%;
   height: 100%;
@@ -449,7 +487,7 @@ p {
   position: absolute;
   background-image: linear-gradient(22deg, #000 25%, transparent 25%, transparent 50%, #000 50%, #000 75%, transparent 75%, transparent);
   background-size: 4px 4px;
-} */
+}
 
 .sound10 {
   background-color: #cad4bd;
