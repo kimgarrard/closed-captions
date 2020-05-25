@@ -252,28 +252,12 @@ p {
 }
 
 .sound11 .s7 {
-  animation: sounds 2s;
+  animation: sounds 4s;
 }
 
 
 
-@keyframes sounds {
-  0% {
-    opacity: 0;
-  }
 
-  10% {
-    opacity: 1;
-  }
-
-  90% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
 
 
 
@@ -595,7 +579,6 @@ p {
   80.5% { filter: invert(0);}
 }
 
-
 .darkcirclediv {
   width: 100vw;
   height: 100vh;
@@ -618,10 +601,6 @@ p {
 }
 
 @keyframes shadow {
-  0% {
-    opacity: 0;
-  }
-
   100% {
     opacity: 1;
   }
@@ -649,18 +628,13 @@ p {
 }
 
 @keyframes shadow2 {
-  0% {
-    opacity: 0;
-  }
-
   100% {
     opacity: 1;
   }
 }
 
 .sound11 {
-  /* background-color: darkred; */
-  animation: changebgcolor2 25s 20s forwards;
+  animation: changebgcolor2 40s 5s forwards;
 }
 
 @keyframes changebgcolor2 {
@@ -674,7 +648,7 @@ p {
 }
 
 .sound11 .background {
-  animation: changeopacity 25s 20s forwards !important;
+  animation: changeopacity 25s 5s forwards !important;
 }
 
 @keyframes changeopacity {
@@ -686,6 +660,8 @@ p {
     opacity: 1;
   }
 }
+
+
 
 
 #closed-captions p {
@@ -858,6 +834,20 @@ p {
 		opacity: 0;
     border: 10px solid white;
 	}
+}
+
+@keyframes sounds {
+  0% {
+    opacity: 0;
+  }
+
+  10%, 90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 
