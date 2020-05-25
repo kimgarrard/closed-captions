@@ -19,6 +19,7 @@ html {
 
 body {
 	height: 100vh;
+  overflow: hidden;
   background-color: #85a99a;
 }
 
@@ -32,13 +33,12 @@ body {
 	position: absolute;
 	z-index: -2;
 	mix-blend-mode: multiply;
-	opacity: 0.9v;
+	opacity: 0.9;
 	background: url(images/background.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .videodiv {
-  overflow: hidden;
 	position: absolute;
 	display: flex;
 	width: 100vw;
@@ -46,11 +46,6 @@ body {
 	justify-content: center;
 	align-items: center;
   padding: 22vh 22vw;
-}
-
-.videodiv2 {
-  width: 100%;
-  height: 100%;
 }
 
 .video {
@@ -68,59 +63,13 @@ p {
 
 
 
-
+/* BEGIN */
 .sound0 {
   animation: backgroundglitch 2s 0s 2.5;
 }
 
 .sound0 .video {
   animation: videoglitch 2s 0s 2 forwards;
-}
-
-@keyframes videoglitch {
-  0% {
-    opacity: 1;
-  }
-
-  10% {
-    opacity: 1;
-  }
-
-  20% {
-    opacity: 0.6;
-  }
-
-  30% {
-    opacity: 1;
-  }
-
-  40% {
-    opacity: 0.6;
-  }
-
-  50% {
-    opacity: 0.6;
-  }
-
-  60% {
-    opacity: 1;
-  }
-
-  70% {
-    opacity: 0.4;
-  }
-
-  80% {
-  opacity: 0.6;
-  }
-
-  90% {
-    opacity: 0.6;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 @keyframes backgroundglitch {
@@ -169,6 +118,54 @@ p {
   }
 }
 
+@keyframes videoglitch {
+  0% {
+    opacity: 1;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 0.6;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 0.4;
+  }
+
+  80% {
+  opacity: 0.6;
+  }
+
+  90% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* ALARM */
 .redcircle1div {
   width: 100vw;
   height: 100vh;
@@ -207,65 +204,26 @@ p {
 }
 
 
-.sounds {
-  position: absolute;
-  width: 100vw;
-  height: 5vh;
-  margin-top: 70vh;
-  z-index: 2;
+
+
+/* MACHINE PIEP */
+.sound3 .videodiv {
+  animation: shakevideo 1.5s linear;
 }
 
-.sounds p {
-  font-family: "brenner sans";
-  font-style: italic;
-  color: grey;
-  opacity: 0;
-  position: absolute;
+@keyframes shakevideo {
+  0% { transform: translate(3px, 2px) rotate(0deg); }
+	10% { transform: translate(-2px, -3px) rotate(-2deg); }
+	20% { transform: translate(-4px, 0px) rotate(2deg); }
+	30% { transform: translate(0px, 3px) rotate(0deg); }
+	40% { transform: translate(2px, -2px) rotate(2deg); }
+	50% { transform: translate(-2px, 3px) rotate(-2deg); }
+	60% { transform: translate(-4px, 2px) rotate(0deg); }
+	70% { transform: translate(3px, 2px) rotate(-2deg); }
+	80% { transform: translate(-2px, -2px) rotate(2deg); }
+	90% { transform: translate(3px, 3px) rotate(0deg); }
+	100% { transform: translate(2px, -3px) rotate(-2deg); }
 }
-
-.sound0 .s0 {
-  animation: sounds 3s;
-}
-
-.sound1 .s1 {
-  animation: sounds 2s;
-}
-
-.sound4 .s2 {
-  animation: sounds 2s;
-}
-
-.sound6 .s3 {
-  animation: sounds 2s;
-}
-
-.sound7 .s4 {
-  animation: sounds 2s 1s;
-}
-
-.sound9 .s5 {
-  animation: sounds 8s 1s;
-}
-
-.sound10 .s6 {
-  animation: sounds 2s;
-}
-
-.sound11 .s7 {
-  animation: sounds 4s;
-}
-
-.sound12 .s8 {
-  animation: sounds 4s 1s;
-}
-
-
-
-
-
-
-
-
 
 .lightcirclediv {
   width: 100vw;
@@ -300,22 +258,18 @@ p {
   animation: grow 2s forwards;
 }
 
-.sound3 .videodiv {
-  animation: shakevideo 1.5s linear;
+.sound4 .videodiv {
+  animation: videobigger2 2s 0s forwards;
 }
 
-@keyframes shakevideo {
-  0% { transform: translate(3px, 2px) rotate(0deg); }
-	10% { transform: translate(-2px, -3px) rotate(-2deg); }
-	20% { transform: translate(-4px, 0px) rotate(2deg); }
-	30% { transform: translate(0px, 3px) rotate(0deg); }
-	40% { transform: translate(2px, -2px) rotate(2deg); }
-	50% { transform: translate(-2px, 3px) rotate(-2deg); }
-	60% { transform: translate(-4px, 2px) rotate(0deg); }
-	70% { transform: translate(3px, 2px) rotate(-2deg); }
-	80% { transform: translate(-2px, -2px) rotate(2deg); }
-	90% { transform: translate(3px, 3px) rotate(0deg); }
-	100% { transform: translate(2px, -3px) rotate(-2deg); }
+@keyframes videobigger2 {
+  0% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
 }
 
 .sound6 .lightcircle2a, .sound6 .lightcircle2b {
@@ -338,24 +292,10 @@ p {
   }
 }
 
-.sound4 .videodiv {
-  animation: videobigger2 2s 0s forwards;
-}
-
-@keyframes videobigger2 {
-  0% {
-    transform: scale(1.05);
-  }
-
-  100% {
-    transform: scale(1.2);
-  }
-}
 
 
 
-
-
+/* BINNEN IN KAMER */
 .sound8 {
   animation: changebgcolor 1s 0s;
   background-color: #aab39e;
@@ -394,17 +334,6 @@ p {
   animation: videoshrinkv2 40s;
 }
 
-@keyframes videoshrink {
-  0% {
-    transform: scale(1.2);
-  }
-
-  100% {
-    transform: scale(1);
-    padding: 30vh 22vw;
-  }
-}
-
 @keyframes videoshrinkv1 {
   0% {
     top: 16vh;
@@ -429,6 +358,19 @@ p {
   animation: videoshrink 40s forwards;
 }
 
+@keyframes videoshrink {
+  0% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+    padding: 30vh 22vw;
+  }
+}
+
+
+/* PIEPSTRALEN */
 .sound9 .whitecircle1div {
   width: 100vw;
   height: 100vh;
@@ -481,6 +423,10 @@ p {
   }
 }
 
+
+
+
+/* STILTE */
 .sound10 .whitecircle {
   display: none;
 }
@@ -518,6 +464,10 @@ p {
   }
 }
 
+
+
+
+/* TWEEDE SCENE */
 .sound11 .video {
   animation: videobigger3 20s forwards;
 }
@@ -550,6 +500,7 @@ p {
   }
 }
 
+/* STRALEN */
 .sound11 .wrapper {
 	overflow: hidden;
 	position: absolute;
@@ -646,6 +597,7 @@ p {
 	}
 }
 
+/* INVERT VIDEOEFFECT */
 .sound11 .videodiv {
   animation: invert 30s 5s;
 }
@@ -742,6 +694,8 @@ p {
   }
 }
 
+
+/* WORDT WEER STIL */
 .sound12 .wrapper, .sound12 .darkcircle {
   animation: dissapear 5s forwards;
 }
@@ -769,6 +723,8 @@ p {
 
 
 
+
+/* TEKSTEN */
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -805,7 +761,6 @@ p {
 
 .voice4 {
   font-family: "brenner mono";
-  /* top: 15vh; */
 }
 
 .sound4 .voice3 {
@@ -842,87 +797,57 @@ p {
 
 
 
-@keyframes sounds {
-  0% {
-    opacity: 0;
-  }
-
-  10%, 90% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
 
 
 
-/* **********************************************
-The first paragraph, with extended timing for
-	all siblings. Basically what it does is that
-	it shows the text after a delay, which
-	corresponds with the time that the word is
-	spoken.
-You probably want to change the styling.
-********************************************** */
 
+/* EXTRA STYLING TEXT */
 .p0 span {
 	opacity: 0;
-	/* font-family: brenner; */
 }
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
-	/* font-weight: 200; */
 }
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s .4s;
-	/* font-weight: 400; */
 }
 
 .p0.on span:nth-of-type(3) {
 	opacity: 1;
 	transition: 0s .5s;
-	/* font-weight: 600; */
 }
 .p0.on span:nth-of-type(4) {
 	opacity: 1;
 	transition: 0s .7s;
-	/* font-weight: 800; */
 }
 .p0.on span:nth-of-type(5) {
 	opacity: 1;
 	transition: 0s 1.1s;
-	/* font-family: "brenner sans"; */
 }
 .p0.on span:nth-of-type(6) {
 	opacity: 1;
 	transition: 0s 1.4s;
-	/* font-family: "brenner display"; */
 }
 .p0.on span:nth-of-type(7) {
 	opacity: 1;
 	transition: 0s 1.7s;
-	/* font-family: "brenner script"; */
 }
 .p0.on span:nth-of-type(8) {
 	opacity: 1;
 	transition: 0s 2s;
-	/* font-family: "brenner script"; */
 }
 .p0.on span:nth-of-type(9) {
 	opacity: 1;
 	transition: 0s 3s;
-	/* font-family: "brenner Sans condensed"; */
 }
 .p0.on span:nth-of-type(10) {
 	opacity: 1;
 	transition: 0s 3.2s;
-	/* font-family: "brenner mono"; */
 }
 
+/* READY */
 .p0.on span:nth-of-type(11) {
   display: block;
   width: 100vw;
@@ -952,7 +877,7 @@ You probably want to change the styling.
 	transition: 0s .5s;
 }
 
-
+/* 3 TIMES */
 .p41 {
   margin-top: 0vh;
 }
@@ -961,4 +886,78 @@ You probably want to change the styling.
 }
 .p43 {
   margin-top: 4vh;
+}
+
+
+
+
+
+
+
+
+/* GELUIDEN IN TEXT */
+.sounds {
+  position: absolute;
+  width: 100vw;
+  height: 5vh;
+  margin-top: 70vh;
+  z-index: 2;
+}
+
+.sounds p {
+  font-family: "brenner sans";
+  font-style: italic;
+  color: grey;
+  opacity: 0;
+  position: absolute;
+}
+
+.sound0 .s0 {
+  animation: sounds 3s;
+}
+
+.sound1 .s1 {
+  animation: sounds 2s;
+}
+
+.sound4 .s2 {
+  animation: sounds 2s;
+}
+
+.sound6 .s3 {
+  animation: sounds 2s;
+}
+
+.sound7 .s4 {
+  animation: sounds 2s 1s;
+}
+
+.sound9 .s5 {
+  animation: sounds 8s 1s;
+}
+
+.sound10 .s6 {
+  animation: sounds 2s;
+}
+
+.sound11 .s7 {
+  animation: sounds 4s;
+}
+
+.sound12 .s8 {
+  animation: sounds 4s 1s;
+}
+
+@keyframes sounds {
+  0% {
+    opacity: 0;
+  }
+
+  10%, 90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
