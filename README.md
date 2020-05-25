@@ -8,14 +8,20 @@ De uitdaging bij deze opdracht was om geluiden uit twee scenes van de Blade Runn
 Ik heb gekozen om gebruik te maken van het Brenner font, hier heb ik voor gekozen omdat je met dit font veel verschillende kanten op kunt en hiermee met de typografie veel kunt zeggen. 
 In de scene hoor je vooral de machine en de hoofdrolspeler uit de film. Voor de machine heb ik gekozen voor brenner mono, omdat dit font statisch en computerachtig lijkt. Bij de hoofdrolspeler heb ik gekozen voor brenner, een wat losser speelser font. Hier heb ik voor gekozen om dit karakter menselijker te maken en om het contrast tussen deze twee personen te versterken. 
 
+<img width="1680" alt="github_typografie" src="https://user-images.githubusercontent.com/43337685/82844373-80dc3700-9ee0-11ea-9b11-98da6e96d081.png">
+
 Verder heb ik ervoor gekozen om de machinestem hoger in beeld weer te geven, en de stem van de hoofdrolspeler meer onderaan. Dit om weer het contrast te versterken en om de hiërarchie aan te geven. De machine staat eigenlijk boven de hoofdrolspeler. 
 
 ### Kleur & elementen
 De meeste geluiden heb ik met kleur & vorm gevisualiseerd. Aan het begin hoor je spannende muziek, de achtergrond verandert steeds van kleur op de maat van de muziek en het scherm wordt af en toe donkerder. Ook hoor je een alarm, dan komt er een rode gloed van het scherm af. Verder hoor je aan het begin een paar keer een machine piep, dan komt er een gloed in de kleur van de machine uit de scene af. 
 
+<img width="1680" alt="github_machinepiep" src="https://user-images.githubusercontent.com/43337685/82844367-7e79dd00-9ee0-11ea-9721-cd9dfdf15496.png">
+
 Waneer de scene zich binnen verder afspeelt, voelt de sfeer bedrukt. Over het hele scherm heb ik een soort raster overlay geplaatst, waardoor ik het 'gevangen' gevoel meer naar voren wil laten komen. Daarnaast hoor je door de hele scene een indringende piep die langzaam steeds harder wordt, dit heb ik gevisualiseerd door witte cirkels die zich steeds dichter naar het beeld bewegen. Daarnaast wordt het scherm langzaam steeds kleiner om de bedrukkende sfeer te benadrukken. 
 
 Bij de tweede scene zijn de geluiden heftiger en zijn de muziek & tonen intenser. Hier heb ik de achtergrond steeds donkerder laten worden en komt er ook langzaam een donkere en rode gloed om het scherm. Daarnaast heb ik op de video een invert effect geplaatst (flitst heel snel). Wanneer het geluid aan het einde minder wordt faden deze effecten ook weer uit. 
+
+<img width="1680" alt="github_scene2" src="https://user-images.githubusercontent.com/43337685/82844371-8043a080-9ee0-11ea-8f45-ff490faa11df.png">
 
 ## Exclusive design principles 
 ### 1. Study situation
