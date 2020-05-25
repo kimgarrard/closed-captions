@@ -251,6 +251,10 @@ p {
   animation: sounds 2s;
 }
 
+.sound11 .s7 {
+  animation: sounds 2s;
+}
+
 
 
 @keyframes sounds {
@@ -510,20 +514,29 @@ p {
 }
 
 @keyframes videobig {
-
   100% {
     transform: scale(1);
   }
 }
 
 .sound10 .video {
-  animation: brighten 3s;
+  animation: brighten 2s;
 }
 
 @keyframes brighten {
 
   50% {
-    filter: brightness(1.4);
+    filter: brightness(1.5);
+  }
+}
+
+.sound11 .video {
+  animation: videobigger 20s forwards;
+}
+
+@keyframes videobigger {
+  100% {
+    transform: scale(1.2);
   }
 }
 
@@ -539,22 +552,47 @@ p {
   background-size: 4px 4px;
 }
 
+.sound11 .voice1 {
+  animation: videobiggerv1 20s forwards;
+}
+
+@keyframes videobiggerv1 {
+  100% {
+    top: 16vh;
+  }
+}
+
 .sound11 .videodiv {
-  animation: invert 0.1s 5s;
-}
-
-.sound12 .videodiv {
-  animation: invert 0.1s 5s;
-}
-
-.sound13 .videodiv {
-  animation: invert 0.1s 5s;
+  animation: invert 30s 5s;
 }
 
 @keyframes invert {
-  100% {
+  9.5% { filter: invert(0);}
+  10% {
     filter: invert(0.8);
   }
+  10.5% { filter: invert(0);}
+
+  34.5% { filter: invert(0);}
+  35% {
+    filter: invert(0.8);
+  }
+  35.5% { filter: invert(0);}
+  36.5% { filter: invert(0);}
+  37% {
+    filter: invert(0.8);
+  }
+  37.5% { filter: invert(0);}
+  49.5% { filter: invert(0);}
+  50% {
+    filter: invert(0.8);
+  }
+  50.5% { filter: invert(0);}
+  79.5% { filter: invert(0);}
+  80% {
+    filter: invert(0.8);
+  }
+  80.5% { filter: invert(0);}
 }
 
 
