@@ -255,6 +255,10 @@ p {
   animation: sounds 4s;
 }
 
+.sound12 .s8 {
+  animation: sounds 4s 1s;
+}
+
 
 
 
