@@ -1,17 +1,11 @@
 # Web-Typografie
 
 ## Closed-captions
+De uitdaging bij deze opdracht was om geluiden uit twee scenes van de Blade Runner met css te animeren, terwijl de video afspeelt. Voor iemand die doof is kan deze scene droog overkomen, terwijl er eigenlijk heel veel spanning in zit. Ik heb geprobeerd om lekker veel te experimenteren en de spanning & sfeer van de scenes meer naar voren te laten komen door middel van verschillende visuele elementen. 
 
-
-## Interactie / Animatie
-Mijn site begint met een beeld vol sterren en een zwevende 'kijker', wanneer je klikt op 'enter the universe of magister' ga je als het ware door de sterrenlucht heen en kom je bij het kunstwerk. Hier kun je de achtergrondkleur aanpassen, de svg laten draaien en animeren door er overheen te hoveren, 'magister' typen en deze letters apart laten rondzweven en je kunt op de knoppen 'night' en 'day' klikken. 
-
-![github_magister](https://user-images.githubusercontent.com/43337685/82755856-b694f900-9dd6-11ea-8281-4edeb0049152.gif)
-
-### Night
-Wanneer je op deze knop klikt, verandert de interface en is het nacht. De kleuren worden donkerder en je ziet de sterren twinkelen. Ook zie je nu een ander plaatje in het midden van een maan met sterren, wanneer je hier overheen hovert draait de maan en twinkelen de sterren. 
-
-![github_night](https://user-images.githubusercontent.com/43337685/82755871-d1676d80-9dd6-11ea-8a5a-c0c4ae2a563e.gif)
+## Design keuzes
+### Typografie
+Voor de typografie heb ik gekozen voor 
 
 ### Day
 Wanneer je op deze knop klikt wordt het dag. De kleuren worden lichter en je ziet wolken in de achtergrond bewegen. Ook zie je weer een ander plaatje in het midden van een zon, wanneer je hier overheen hovert draait de zon rond en gaat deze schijnen.
