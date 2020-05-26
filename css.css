@@ -315,6 +315,7 @@ p {
   opacity: 0.5 !important;
 }
 
+/* Pattern: https://codepen.io/jakob-e/pen/Qjpowv/ */
 .sound8 .pattern {
   opacity: 0.2;
   z-index: 1;
@@ -501,6 +502,7 @@ p {
 }
 
 /* STRALEN */
+/* inspiratie: https://codepen.io/RedGlove/pen/pmOYqz */
 .sound11 .wrapper {
 	overflow: hidden;
 	position: absolute;
