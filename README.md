@@ -45,3 +45,7 @@ Bij de tweede feedbackronde was Marie positief over het feit dat ze nu de geluid
 
 ## Wat heb ik voor nieuws geleerd?
 Ik heb veel meer over css geleerd, onder andere meer over filters, transities en keyframes. Daarnaast heb ik ook geleerd om me goed in te leven in de gebruiker, Marie was er vanuit haar kant ook echt bij betrokken. 
+
+## Inspiratie
+[X] [Pattern en filters](https://codepen.io/jakob-e/pen/Qjpowv/)
+[X] [Spacy design](https://codepen.io/RedGlove/pen/pmOYqz)
